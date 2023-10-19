@@ -1,0 +1,36 @@
+@keyframes pulseMotion {
+  0% {
+    transform: translate(-50%, -50%) scale(1.2, 1);
+    background-color: rgba(102, 102, 102, 0.4)
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2.7, 1.8);
+    background-color: rgba(102, 102, 102, 0)
+  }
+}
+
+.point {
+  position: relative;
+  outline: none;
+}
+
+.point.-active {
+  color: #666666;
+}
+
+.point:after {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  content: '';
+  transition: opacity linear 0.4;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+}
+
+.point.-active:after {
+  animation: pulseMotion 1.0s linear infinite;
+}
