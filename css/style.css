@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, fantasy;
+  background-color: #222222;
+}
+
+.main {
+  width: 80%;
+  height: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  justify-content: space-between;
+  margin-top: 20vh;
+  font-size: 5em;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15vh;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 7em;
+}
+
+a:link {
+  color: #fd6a02;
+}
+
+a:visited {
+  color: #fd6a02;
+}

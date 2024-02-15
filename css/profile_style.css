@@ -1,0 +1,29 @@
+body {
+	background: #222222;
+	color: white;
+  font-family: system-ui, fantasy;
+	font-size: 25px;
+  font-style: italic;
+	width: 80%;
+	height: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a, p {
+	margin-left: 20px;
+}
+
+a:link {
+  color: #fd6a02;
+}
+
+a:visited {
+  color: #fd6a02;
+}
+
+.back {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
